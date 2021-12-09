@@ -6,7 +6,9 @@
 package Interfaz;
 
 import Modelo.Gerente;
+import Modelo.Proveedor;
 import Modelo.Usuario;
+import Modelo.Vendedor;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -57,6 +59,10 @@ public class Menu {
     public static void inicializarAtributos() {
         usuarios = new ArrayList<>();
         Usuario gerente=new Gerente("gerente","gerente");
+        Usuario proveedor=new Proveedor("Proveedor","Proveedor");
+        Usuario vendedor= new Vendedor("Vendedor","vendedor");
         usuarios.add(gerente);
+        usuarios.add(vendedor);
+        usuarios.add(proveedor);
     }
 }
