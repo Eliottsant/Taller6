@@ -18,6 +18,7 @@ public class CompradorWeb extends Usuario{
 
     @Override
     public void mostrarMenu() {
+        System.out.println("Menu Comprador Web");
     }
     
 }

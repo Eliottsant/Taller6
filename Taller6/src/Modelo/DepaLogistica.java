@@ -17,6 +17,7 @@ public class DepaLogistica extends Usuario {
 
     @Override
     public void mostrarMenu() {
+        System.out.println("Departamento Logistica");
         
     }
     

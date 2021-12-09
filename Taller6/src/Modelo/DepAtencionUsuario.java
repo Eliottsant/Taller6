@@ -17,6 +17,7 @@ public class DepAtencionUsuario extends Usuario{
 
     @Override
     public void mostrarMenu() {
+        System.out.println("Departamento atencion al usuario");
     }
     
 }

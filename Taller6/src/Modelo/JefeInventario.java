@@ -17,7 +17,7 @@ public class JefeInventario extends Usuario{
 
     @Override
     public void mostrarMenu() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Menu Jefe inventario");
     }
     
 }
