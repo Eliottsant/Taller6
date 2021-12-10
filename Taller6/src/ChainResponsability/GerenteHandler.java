@@ -14,9 +14,14 @@ import Modelo.Producto;
  */
 public class GerenteHandler extends HandlerCliente{
 
+    private boolean aprobacion;
 
     @Override
     public void handle(Producto producto, String falla){
-        
+        if(aprobacion){
+            System.out.println("Solicitud aprobada");
+        }else{
+            next.handle(producto, falla);
+        }
     }
 }

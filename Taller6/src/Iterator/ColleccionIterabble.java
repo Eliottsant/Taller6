@@ -9,6 +9,7 @@ package Iterator;
  *
  * @author Eliot
  */
-public class ListaProductosDañados {
+public interface ColleccionIterabble {
     
+    public void CrearIterator(Iterador iterator);
 }
