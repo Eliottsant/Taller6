@@ -5,11 +5,17 @@
  */
 package Modelo;
 
+import com.sun.source.tree.Tree;
+
+
+
 /**
  *
  * @author Eliot
  */
 public class Bodega extends Inventario{
     
+    private Tree productos;
     
+    public Tree getProducto
 }

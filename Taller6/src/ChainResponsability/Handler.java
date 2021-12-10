@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Modelo;
-
+package ChainResponsability;
+import Modelo.*;
 /**
  *
- * @author Eliot
+ * @author eli
  */
-public class StrategyVehiculos {
+public interface Handler {
+    
+    public void setNext(Handler handler);
+    public void handle(Producto producto, String falla);
     
 }

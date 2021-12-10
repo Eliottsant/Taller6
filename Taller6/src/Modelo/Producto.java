@@ -13,5 +13,27 @@ public class Producto {
     private String nombre;
     private int stock;
     private String descripcion;
+    private Garantia garantia;
+    private float precio;
+    
+    public Garantia getGarantia(){
+        return garantia;
+    }
+    public String getNombre(){
+        return nombre;
+    }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public float getPrecio() {
+        return precio;
+    }
+
     
 }
